@@ -1,0 +1,115 @@
+.login-background {
+  background-image: url('https://res.cloudinary.com/dct2c9u8o/image/upload/v1736325318/mndwchgq2i8l36dfrol4.png');
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.login-box {
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 16px;
+  box-shadow: 0px 10px 30px rgba(102, 205, 102, 1);
+}
+.login-logo-image {
+  width: 119px;
+  height: 85px;
+  gap: 0px;
+  opacity: 0px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+.form-container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 30px;
+}
+.login-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.login-label {
+  color: #333333;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: start;
+  margin-bottom: 3px;
+}
+.input-box {
+  width: 100%;
+  color: #333333;
+  border: 1px solid #64748b;
+  border-radius: 8px;
+  padding-left: 8px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 3px;
+}
+.login-icon {
+  height: 16px;
+  width: 16px;
+}
+.login-input-element {
+  border-style: none;
+  font-size: 18px;
+  padding: 8px;
+  outline: none;
+}
+.checkbox-container {
+  display: flex;
+  align-items: center;
+}
+.login-checkbox {
+  height: 16px;
+  width: 16px;
+  cursor: pointer;
+  background-color: #088c03;
+}
+.login-button {
+  background-color: #088c03;
+  border-radius: 8px;
+  width: 100%;
+  font-size: 16px;
+  color: white;
+  padding: 12px;
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.no-details-button {
+  background-color: #b3b3b3;
+}
+.error-para {
+  color: #ef4444;
+  margin-top: 2px;
+  font-size: 16px;
+  text-align: left;
+  font-weight: bold;
+  font-style: 'DM Sans';
+}
+
+@media (min-width: 768px) {
+  .login-background {
+    background-image: url('https://res.cloudinary.com/dct2c9u8o/image/upload/v1736326774/Background_2_hyutxv.png');
+    align-items: center;
+  }
+  .login-logo-image {
+    width: 119px;
+    height: 85px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .login-box {
+    width: 450px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    box-shadow: 0px 10px 50px rgba(102, 205, 102, 1);
+  }
+}

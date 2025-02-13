@@ -1,0 +1,62 @@
+.header-section {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .header-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #d8d8d833;
+    height: 15vh;
+  }
+  .header-logo {
+    height: 70px;
+    width: 100px;
+  }
+  .header-links-container {
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-link-para {
+    color: #333333;
+    font-size: 18px;
+    font-family: 'Roboto';
+  }
+  .active-header {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #088c03;
+    color: #088c03;
+    font-weight: bold;
+  }
+  .link-component {
+    text-decoration: none;
+  }
+  .header-logout-container {
+    display: flex;
+    align-items: center;
+  }
+  .header-logout-button {
+    background-color: transparent;
+    border-style: none;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .header-logout-icon {
+    font-size: 20px;
+    color: black;
+    margin-right: 2px;
+  }
+  .header-logout-para {
+    color: #333333;
+    font-size: 18px;
+  }
+}

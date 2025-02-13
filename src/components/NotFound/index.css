@@ -1,0 +1,17 @@
+.not-found-view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+.not-found-view-heading {
+  font-size: 25px;
+  margin: 10px;
+  margin-bottom: 0px;
+}
+.not-found-view-para {
+  font-size: 16px;
+  margin: 10px;
+}

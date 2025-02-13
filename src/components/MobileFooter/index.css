@@ -1,0 +1,32 @@
+.mobile-header-container {
+  width: 100%;
+  display: flex;
+  padding-left: 16px;
+  padding-right: 16px;
+  justify-content: space-between;
+  height: 48px;
+  align-items: center;
+  border-top-style: solid;
+  border-top-color: #d1d5db;
+  border-top-width: 2px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.home-logout-btn {
+  background-color: transparent;
+  border-style: none;
+}
+.mobile-header-icon {
+  height: 24px;
+  width: 24px;
+  color: #808080;
+}
+.active-footer-icon {
+  color: #088c03;
+}
+
+@media (min-width: 768px) {
+  .mobile-header-container {
+    display: none;
+  }
+}
