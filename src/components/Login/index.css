@@ -56,9 +56,10 @@
 }
 .login-input-element {
   border-style: none;
-  font-size: 18px;
+  font-size: 16px;
   padding: 8px;
   outline: none;
+  width: 90%;
 }
 .checkbox-container {
   display: flex;
